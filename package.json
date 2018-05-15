@@ -1,0 +1,35 @@
+{
+  "name": "react-reviews",
+  "version": "1.0.0",
+  "description": "React-component sample for Unity Webview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-about": "webpack-dev-server --config about-webpack.config.js",
+    "build-about": "webpack --config about-webpack.config.js"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "reviews"
+  ],
+  "author": "INITLAB, OOO",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "image-webpack-loader": "^3.3.1",
+    "json-loader": "^0.5.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.10.0"
+  }
+}

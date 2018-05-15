@@ -1,0 +1,17 @@
+html {
+    -webkit-text-size-adjust: none;
+}
+
+body {
+  font-family: "Open Sans";
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  background:transparent;
+}
+
+body.about-body {
+    min-height: calc(100vh - 66px);
+    top: 50px;
+    left: 6px;
+    position: absolute;
+}

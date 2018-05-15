@@ -1,0 +1,36 @@
+.back-button-bar {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    padding-top: 20px;
+    padding-top: constant(safe-area-inset-top);
+    width: 100vw;
+    left: 0;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    height: calc(30px + constant(safe-area-inset-top));
+    background: #ffffff;
+    font-size: 18px;
+}
+
+.back-button-bar .header-bar {
+    width: 100vw;
+    text-align: center;
+    display: inline-block;
+    color: #323232;
+}
+
+.back-button-bar .close-button{
+    position: absolute;
+    top: 20px;
+    top: constant(safe-area-inset-top);
+    right: 10px;
+    text-align: right;
+    width: 26px;
+    height: 26px;
+}
+
+.back-button-bar .close-button .svg-icon {
+    fill: #323232;
+}
