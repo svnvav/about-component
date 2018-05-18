@@ -14,6 +14,7 @@ class App extends React.Component {
     }
 }
 
+//функция инициализации компонента
 window.createAboutComponent = function (data) {
     ReactDOM.render(<App data = {data} />, document.getElementById('container'));
 };

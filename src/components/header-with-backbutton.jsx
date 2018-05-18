@@ -1,7 +1,8 @@
 import React from 'react';
 import './header-with-backbutton.css';
-import SharpAPI from '../utills/sharpApi';
+import unityApi from '../utils/unityApi';
 
+//Верхняя панель компонента
 export default class BackHeader extends React.Component {
     constructor(props) {
       super(props);
@@ -34,5 +35,5 @@ export default class BackHeader extends React.Component {
 }
 
 function closeHandler() {
-    SharpAPI.close();
+    unityApi.close();
 }

@@ -1,6 +1,7 @@
 function createAPIObject(w) {
   const APIObject = {
 
+    //Закрывает Webview в приложении
     close: function() {
       if(window.Unity) window.Unity.call("close");
     }
@@ -13,12 +14,14 @@ function createAPIObject(w) {
 }
 
 let api;
+
+//Инициализация объекта API
 (function Init(w) {
-  if(!w.sharpApi) {
+  if(!w.unityApi) {
     api = createAPIObject(w);
-    w.sharpApi = api;
+    w.unityApi = api;
   } else {
-    api = w.sharpApi;
+    api = w.unityApi;
   }
 })(window);
 
